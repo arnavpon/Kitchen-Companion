@@ -6,20 +6,309 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B2F26C5120FC33DC002B83DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5020FC33DC002B83DA /* AppDelegate.swift */; };
+		B2F26C5320FC33DC002B83DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5220FC33DC002B83DA /* ViewController.swift */; };
+		B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5420FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld */; };
+		B2F26C5820FC33F0002B83DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C5720FC33F0002B83DA /* Assets.xcassets */; };
+		B2F26C5B20FC33F0002B83DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C5920FC33F0002B83DA /* Main.storyboard */; };
+		B2F26C6720FC33F1002B83DA /* Kitchen_Companion_DesktopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C6620FC33F1002B83DA /* Kitchen_Companion_DesktopTests.swift */; };
+		B2F26C7620FC342F002B83DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C7520FC342F002B83DA /* AppDelegate.swift */; };
+		B2F26C7820FC342F002B83DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C7720FC342F002B83DA /* ViewController.swift */; };
+		B2F26C7B20FC342F002B83DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C7920FC342F002B83DA /* Main.storyboard */; };
+		B2F26C7E20FC3430002B83DA /* Kitchen_Companion_Mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C7C20FC342F002B83DA /* Kitchen_Companion_Mobile.xcdatamodeld */; };
+		B2F26C8020FC3434002B83DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C7F20FC3434002B83DA /* Assets.xcassets */; };
+		B2F26C8320FC3434002B83DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C8120FC3434002B83DA /* LaunchScreen.storyboard */; };
+		B2F26C8E20FC3434002B83DA /* Kitchen_Companion_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C8D20FC3434002B83DA /* Kitchen_Companion_MobileTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F26C6320FC33F1002B83DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F26C4320FC337F002B83DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F26C4C20FC33DB002B83DA;
+			remoteInfo = "Kitchen Companion Desktop";
+		};
+		B2F26C8A20FC3434002B83DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F26C4320FC337F002B83DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F26C7220FC342F002B83DA;
+			remoteInfo = "Kitchen Companion Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2F26C4D20FC33DB002B83DA /* Kitchen Companion Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen Companion Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F26C5020FC33DC002B83DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F26C5220FC33DC002B83DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F26C5520FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kitchen_Companion_Desktop.xcdatamodel; sourceTree = "<group>"; };
+		B2F26C5720FC33F0002B83DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F26C5A20FC33F0002B83DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F26C5C20FC33F0002B83DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F26C5D20FC33F0002B83DA /* Kitchen_Companion_Desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kitchen_Companion_Desktop.entitlements; sourceTree = "<group>"; };
+		B2F26C6220FC33F1002B83DA /* Kitchen Companion DesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitchen Companion DesktopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F26C6620FC33F1002B83DA /* Kitchen_Companion_DesktopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen_Companion_DesktopTests.swift; sourceTree = "<group>"; };
+		B2F26C6820FC33F1002B83DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F26C7320FC342F002B83DA /* Kitchen Companion Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen Companion Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F26C7520FC342F002B83DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F26C7720FC342F002B83DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F26C7A20FC342F002B83DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F26C7D20FC342F002B83DA /* Kitchen_Companion_Mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kitchen_Companion_Mobile.xcdatamodel; sourceTree = "<group>"; };
+		B2F26C7F20FC3434002B83DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F26C8220FC3434002B83DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F26C8420FC3434002B83DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F26C8920FC3434002B83DA /* Kitchen Companion MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitchen Companion MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F26C8D20FC3434002B83DA /* Kitchen_Companion_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen_Companion_MobileTests.swift; sourceTree = "<group>"; };
+		B2F26C8F20FC3434002B83DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F26C4A20FC33DB002B83DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C5F20FC33F1002B83DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C7020FC342F002B83DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C8620FC3434002B83DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		B2F26C4220FC337F002B83DA = {
 			isa = PBXGroup;
 			children = (
+				B2F26C4F20FC33DC002B83DA /* Kitchen Companion Desktop */,
+				B2F26C6520FC33F1002B83DA /* Kitchen Companion DesktopTests */,
+				B2F26C7420FC342F002B83DA /* Kitchen Companion Mobile */,
+				B2F26C8C20FC3434002B83DA /* Kitchen Companion MobileTests */,
+				B2F26C4E20FC33DB002B83DA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		B2F26C4E20FC33DB002B83DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C4D20FC33DB002B83DA /* Kitchen Companion Desktop.app */,
+				B2F26C6220FC33F1002B83DA /* Kitchen Companion DesktopTests.xctest */,
+				B2F26C7320FC342F002B83DA /* Kitchen Companion Mobile.app */,
+				B2F26C8920FC3434002B83DA /* Kitchen Companion MobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F26C4F20FC33DC002B83DA /* Kitchen Companion Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C9620FC34B5002B83DA /* Data Models */,
+				B2F26C9720FC34BE002B83DA /* View Controllers */,
+				B2F26C9820FC34C6002B83DA /* Views */,
+				B2F26C5020FC33DC002B83DA /* AppDelegate.swift */,
+				B2F26C5720FC33F0002B83DA /* Assets.xcassets */,
+				B2F26C5C20FC33F0002B83DA /* Info.plist */,
+				B2F26C5D20FC33F0002B83DA /* Kitchen_Companion_Desktop.entitlements */,
+			);
+			path = "Kitchen Companion Desktop";
+			sourceTree = "<group>";
+		};
+		B2F26C6520FC33F1002B83DA /* Kitchen Companion DesktopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C6620FC33F1002B83DA /* Kitchen_Companion_DesktopTests.swift */,
+				B2F26C6820FC33F1002B83DA /* Info.plist */,
+			);
+			path = "Kitchen Companion DesktopTests";
+			sourceTree = "<group>";
+		};
+		B2F26C7420FC342F002B83DA /* Kitchen Companion Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C9B20FC34ED002B83DA /* Data Models */,
+				B2F26C9A20FC34E7002B83DA /* View Controllers */,
+				B2F26C9920FC34E0002B83DA /* Views */,
+				B2F26C7520FC342F002B83DA /* AppDelegate.swift */,
+				B2F26C7F20FC3434002B83DA /* Assets.xcassets */,
+				B2F26C8420FC3434002B83DA /* Info.plist */,
+			);
+			path = "Kitchen Companion Mobile";
+			sourceTree = "<group>";
+		};
+		B2F26C8C20FC3434002B83DA /* Kitchen Companion MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C8D20FC3434002B83DA /* Kitchen_Companion_MobileTests.swift */,
+				B2F26C8F20FC3434002B83DA /* Info.plist */,
+			);
+			path = "Kitchen Companion MobileTests";
+			sourceTree = "<group>";
+		};
+		B2F26C9620FC34B5002B83DA /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C5420FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		B2F26C9720FC34BE002B83DA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C5220FC33DC002B83DA /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B2F26C9820FC34C6002B83DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C5920FC33F0002B83DA /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2F26C9920FC34E0002B83DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C7920FC342F002B83DA /* Main.storyboard */,
+				B2F26C8120FC3434002B83DA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2F26C9A20FC34E7002B83DA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C7720FC342F002B83DA /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B2F26C9B20FC34ED002B83DA /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2F26C7C20FC342F002B83DA /* Kitchen_Companion_Mobile.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F26C4C20FC33DB002B83DA /* Kitchen Companion Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F26C6920FC33F1002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion Desktop" */;
+			buildPhases = (
+				B2F26C4920FC33DB002B83DA /* Sources */,
+				B2F26C4A20FC33DB002B83DA /* Frameworks */,
+				B2F26C4B20FC33DB002B83DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitchen Companion Desktop";
+			productName = "Kitchen Companion Desktop";
+			productReference = B2F26C4D20FC33DB002B83DA /* Kitchen Companion Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F26C6120FC33F1002B83DA /* Kitchen Companion DesktopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F26C6C20FC33F1002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion DesktopTests" */;
+			buildPhases = (
+				B2F26C5E20FC33F1002B83DA /* Sources */,
+				B2F26C5F20FC33F1002B83DA /* Frameworks */,
+				B2F26C6020FC33F1002B83DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F26C6420FC33F1002B83DA /* PBXTargetDependency */,
+			);
+			name = "Kitchen Companion DesktopTests";
+			productName = "Kitchen Companion DesktopTests";
+			productReference = B2F26C6220FC33F1002B83DA /* Kitchen Companion DesktopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2F26C7220FC342F002B83DA /* Kitchen Companion Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F26C9020FC3434002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion Mobile" */;
+			buildPhases = (
+				B2F26C6F20FC342F002B83DA /* Sources */,
+				B2F26C7020FC342F002B83DA /* Frameworks */,
+				B2F26C7120FC342F002B83DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitchen Companion Mobile";
+			productName = "Kitchen Companion Mobile";
+			productReference = B2F26C7320FC342F002B83DA /* Kitchen Companion Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F26C8820FC3434002B83DA /* Kitchen Companion MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F26C9320FC3434002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion MobileTests" */;
+			buildPhases = (
+				B2F26C8520FC3434002B83DA /* Sources */,
+				B2F26C8620FC3434002B83DA /* Frameworks */,
+				B2F26C8720FC3434002B83DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F26C8B20FC3434002B83DA /* PBXTargetDependency */,
+			);
+			name = "Kitchen Companion MobileTests";
+			productName = "Kitchen Companion MobileTests";
+			productReference = B2F26C8920FC3434002B83DA /* Kitchen Companion MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B2F26C4320FC337F002B83DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					B2F26C4C20FC33DB002B83DA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B2F26C6120FC33F1002B83DA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B2F26C4C20FC33DB002B83DA;
+					};
+					B2F26C7220FC342F002B83DA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B2F26C8820FC3434002B83DA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B2F26C7220FC342F002B83DA;
+					};
+				};
 			};
 			buildConfigurationList = B2F26C4620FC337F002B83DA /* Build configuration list for PBXProject "Kitchen Companion" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -27,14 +316,135 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B2F26C4220FC337F002B83DA;
+			productRefGroup = B2F26C4E20FC33DB002B83DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B2F26C4C20FC33DB002B83DA /* Kitchen Companion Desktop */,
+				B2F26C6120FC33F1002B83DA /* Kitchen Companion DesktopTests */,
+				B2F26C7220FC342F002B83DA /* Kitchen Companion Mobile */,
+				B2F26C8820FC3434002B83DA /* Kitchen Companion MobileTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F26C4B20FC33DB002B83DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F26C5820FC33F0002B83DA /* Assets.xcassets in Resources */,
+				B2F26C5B20FC33F0002B83DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C6020FC33F1002B83DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C7120FC342F002B83DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F26C8320FC3434002B83DA /* LaunchScreen.storyboard in Resources */,
+				B2F26C8020FC3434002B83DA /* Assets.xcassets in Resources */,
+				B2F26C7B20FC342F002B83DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C8720FC3434002B83DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F26C4920FC33DB002B83DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */,
+				B2F26C5320FC33DC002B83DA /* ViewController.swift in Sources */,
+				B2F26C5120FC33DC002B83DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C5E20FC33F1002B83DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F26C6720FC33F1002B83DA /* Kitchen_Companion_DesktopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C6F20FC342F002B83DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F26C7E20FC3430002B83DA /* Kitchen_Companion_Mobile.xcdatamodeld in Sources */,
+				B2F26C7820FC342F002B83DA /* ViewController.swift in Sources */,
+				B2F26C7620FC342F002B83DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F26C8520FC3434002B83DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F26C8E20FC3434002B83DA /* Kitchen_Companion_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F26C6420FC33F1002B83DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F26C4C20FC33DB002B83DA /* Kitchen Companion Desktop */;
+			targetProxy = B2F26C6320FC33F1002B83DA /* PBXContainerItemProxy */;
+		};
+		B2F26C8B20FC3434002B83DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F26C7220FC342F002B83DA /* Kitchen Companion Mobile */;
+			targetProxy = B2F26C8A20FC3434002B83DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2F26C5920FC33F0002B83DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F26C5A20FC33F0002B83DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F26C7920FC342F002B83DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F26C7A20FC342F002B83DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F26C8120FC3434002B83DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F26C8220FC3434002B83DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B2F26C4720FC337F002B83DA /* Debug */ = {
@@ -46,6 +456,570 @@
 		B2F26C4820FC337F002B83DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+			};
+			name = Release;
+		};
+		B2F26C6A20FC33F1002B83DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "Kitchen Companion Desktop/Kitchen_Companion_Desktop.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B2F26C6B20FC33F1002B83DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "Kitchen Companion Desktop/Kitchen_Companion_Desktop.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		B2F26C6D20FC33F1002B83DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion DesktopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-DesktopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitchen Companion Desktop.app/Contents/MacOS/Kitchen Companion Desktop";
+			};
+			name = Debug;
+		};
+		B2F26C6E20FC33F1002B83DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion DesktopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-DesktopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitchen Companion Desktop.app/Contents/MacOS/Kitchen Companion Desktop";
+			};
+			name = Release;
+		};
+		B2F26C9120FC3434002B83DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F26C9220FC3434002B83DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F26C9420FC3434002B83DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitchen Companion Mobile.app/Kitchen Companion Mobile";
+			};
+			name = Debug;
+		};
+		B2F26C9520FC3434002B83DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SUQDPXM88X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Kitchen Companion MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Kitchen-Companion-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitchen Companion Mobile.app/Kitchen Companion Mobile";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -61,7 +1035,66 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B2F26C6920FC33F1002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F26C6A20FC33F1002B83DA /* Debug */,
+				B2F26C6B20FC33F1002B83DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F26C6C20FC33F1002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion DesktopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F26C6D20FC33F1002B83DA /* Debug */,
+				B2F26C6E20FC33F1002B83DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F26C9020FC3434002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F26C9120FC3434002B83DA /* Debug */,
+				B2F26C9220FC3434002B83DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F26C9320FC3434002B83DA /* Build configuration list for PBXNativeTarget "Kitchen Companion MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F26C9420FC3434002B83DA /* Debug */,
+				B2F26C9520FC3434002B83DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2F26C5420FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2F26C5520FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodel */,
+			);
+			currentVersion = B2F26C5520FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodel */;
+			path = Kitchen_Companion_Desktop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B2F26C7C20FC342F002B83DA /* Kitchen_Companion_Mobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2F26C7D20FC342F002B83DA /* Kitchen_Companion_Mobile.xcdatamodel */,
+			);
+			currentVersion = B2F26C7D20FC342F002B83DA /* Kitchen_Companion_Mobile.xcdatamodel */;
+			path = Kitchen_Companion_Mobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B2F26C4320FC337F002B83DA /* Project object */;
 }
