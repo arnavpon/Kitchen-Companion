@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2C6548A2104340D002670A6 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C654892104340D002670A6 /* ScheduleViewController.swift */; };
 		B2F26C5120FC33DC002B83DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5020FC33DC002B83DA /* AppDelegate.swift */; };
 		B2F26C5320FC33DC002B83DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5220FC33DC002B83DA /* ViewController.swift */; };
 		B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5420FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2C654892104340D002670A6 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		B2F26C4D20FC33DB002B83DA /* Kitchen Companion Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen Companion Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F26C5020FC33DC002B83DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F26C5220FC33DC002B83DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				B2F26C5220FC33DC002B83DA /* ViewController.swift */,
+				B2C654892104340D002670A6 /* ScheduleViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */,
 				B2F26C5320FC33DC002B83DA /* ViewController.swift in Sources */,
 				B2F26C5120FC33DC002B83DA /* AppDelegate.swift in Sources */,
+				B2C6548A2104340D002670A6 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
