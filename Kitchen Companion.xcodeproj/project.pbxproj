@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2AF88922106BFEC0074E868 /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF888E2106BFEC0074E868 /* Recipe+CoreDataClass.swift */; };
+		B2AF88932106BFEC0074E868 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF888F2106BFEC0074E868 /* Recipe+CoreDataProperties.swift */; };
+		B2AF88942106BFEC0074E868 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF88902106BFEC0074E868 /* Meal+CoreDataClass.swift */; };
+		B2AF88952106BFEC0074E868 /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF88912106BFEC0074E868 /* Meal+CoreDataProperties.swift */; };
+		B2AF88972106C0E30074E868 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF88962106C0E30074E868 /* Ingredient.swift */; };
+		B2AF88992106C1320074E868 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF88982106C1320074E868 /* Instruction.swift */; };
 		B2C6548A2104340D002670A6 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C654892104340D002670A6 /* ScheduleViewController.swift */; };
 		B2F26C5120FC33DC002B83DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5020FC33DC002B83DA /* AppDelegate.swift */; };
-		B2F26C5320FC33DC002B83DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5220FC33DC002B83DA /* ViewController.swift */; };
 		B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F26C5420FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld */; };
 		B2F26C5820FC33F0002B83DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C5720FC33F0002B83DA /* Assets.xcassets */; };
 		B2F26C5B20FC33F0002B83DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F26C5920FC33F0002B83DA /* Main.storyboard */; };
@@ -41,10 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2AF888E2106BFEC0074E868 /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B2AF888F2106BFEC0074E868 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B2AF88902106BFEC0074E868 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B2AF88912106BFEC0074E868 /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B2AF88962106C0E30074E868 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		B2AF88982106C1320074E868 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
 		B2C654892104340D002670A6 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		B2F26C4D20FC33DB002B83DA /* Kitchen Companion Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen Companion Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F26C5020FC33DC002B83DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2F26C5220FC33DC002B83DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2F26C5520FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kitchen_Companion_Desktop.xcdatamodel; sourceTree = "<group>"; };
 		B2F26C5720FC33F0002B83DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2F26C5A20FC33F0002B83DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -169,6 +179,12 @@
 			isa = PBXGroup;
 			children = (
 				B2F26C5420FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld */,
+				B2AF88902106BFEC0074E868 /* Meal+CoreDataClass.swift */,
+				B2AF88912106BFEC0074E868 /* Meal+CoreDataProperties.swift */,
+				B2AF888E2106BFEC0074E868 /* Recipe+CoreDataClass.swift */,
+				B2AF888F2106BFEC0074E868 /* Recipe+CoreDataProperties.swift */,
+				B2AF88962106C0E30074E868 /* Ingredient.swift */,
+				B2AF88982106C1320074E868 /* Instruction.swift */,
 			);
 			path = "Data Models";
 			sourceTree = "<group>";
@@ -176,7 +192,6 @@
 		B2F26C9720FC34BE002B83DA /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B2F26C5220FC33DC002B83DA /* ViewController.swift */,
 				B2C654892104340D002670A6 /* ScheduleViewController.swift */,
 			);
 			path = "View Controllers";
@@ -375,8 +390,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AF88992106C1320074E868 /* Instruction.swift in Sources */,
+				B2AF88942106BFEC0074E868 /* Meal+CoreDataClass.swift in Sources */,
+				B2AF88952106BFEC0074E868 /* Meal+CoreDataProperties.swift in Sources */,
+				B2AF88932106BFEC0074E868 /* Recipe+CoreDataProperties.swift in Sources */,
 				B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */,
-				B2F26C5320FC33DC002B83DA /* ViewController.swift in Sources */,
+				B2AF88972106C0E30074E868 /* Ingredient.swift in Sources */,
+				B2AF88922106BFEC0074E868 /* Recipe+CoreDataClass.swift in Sources */,
 				B2F26C5120FC33DC002B83DA /* AppDelegate.swift in Sources */,
 				B2C6548A2104340D002670A6 /* ScheduleViewController.swift in Sources */,
 			);
