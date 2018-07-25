@@ -10,6 +10,8 @@ import CoreData
 @objc(Recipe)
 public class Recipe: NSManagedObject {
     
+    static var EntityName = "Recipe" // reference to entity name
+    
     var metadata: String?  // recipe metadata object - contains info like portionSize, ...
     var ingredients: [Ingredient] = []
     var preparationInstructions: [Instruction] = []

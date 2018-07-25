@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2465F7D2108BA0400F152DC /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2465F7C2108BA0400F152DC /* AddMealViewController.swift */; };
+		B2465F7F2108BA1900F152DC /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2465F7E2108BA1900F152DC /* AddRecipeViewController.swift */; };
 		B2AF88922106BFEC0074E868 /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF888E2106BFEC0074E868 /* Recipe+CoreDataClass.swift */; };
 		B2AF88932106BFEC0074E868 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF888F2106BFEC0074E868 /* Recipe+CoreDataProperties.swift */; };
 		B2AF88942106BFEC0074E868 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF88902106BFEC0074E868 /* Meal+CoreDataClass.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2465F7C2108BA0400F152DC /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
+		B2465F7E2108BA1900F152DC /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
 		B2AF888E2106BFEC0074E868 /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B2AF888F2106BFEC0074E868 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B2AF88902106BFEC0074E868 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				B2C654892104340D002670A6 /* ScheduleViewController.swift */,
+				B2465F7C2108BA0400F152DC /* AddMealViewController.swift */,
+				B2465F7E2108BA1900F152DC /* AddRecipeViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -393,9 +399,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2465F7F2108BA1900F152DC /* AddRecipeViewController.swift in Sources */,
 				B2AF88992106C1320074E868 /* Instruction.swift in Sources */,
 				B2AF88942106BFEC0074E868 /* Meal+CoreDataClass.swift in Sources */,
 				B2AF88952106BFEC0074E868 /* Meal+CoreDataProperties.swift in Sources */,
+				B2465F7D2108BA0400F152DC /* AddMealViewController.swift in Sources */,
 				B2DFFB0321080E480016BD11 /* Helpers.swift in Sources */,
 				B2AF88932106BFEC0074E868 /* Recipe+CoreDataProperties.swift in Sources */,
 				B2F26C5620FC33DC002B83DA /* Kitchen_Companion_Desktop.xcdatamodeld in Sources */,

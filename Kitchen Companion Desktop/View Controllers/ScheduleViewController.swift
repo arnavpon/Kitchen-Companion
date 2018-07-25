@@ -17,6 +17,7 @@
 //  - First level in OutlineView is some sort of tag (type/genre) to categorize/sort meals
 //  - Second level is list of meals of the specified tag type
 //  - Third level is recipes linked to the specified meal
+// search functionality, how to arrange meals in view, editing views (allow reordering?)
 
 // 2) need a way to schedule meals for the week. needs to be flexible to accommodate variety of eating routines (breakfast + dinner, B/L/D, etc.) & time frames (does user schedule week by week, longer or shorter periods, etc).
 // needs to understand user's meal habits. ask how many meals per day, which ones need assigning
@@ -41,17 +42,22 @@ import Cocoa
 class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutlineViewDataSource {
 
     @IBOutlet weak var mealView: NSOutlineView!
-
+    @IBOutlet weak var addMealButton: NSButton!
+    @IBOutlet weak var addRecipeButton: NSButton!
+    
     var meals: [Meal] = [Meal]()  // list of known meals
     
     // MARK: - ViewController Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Pull meals from persistent store to display when view opens:
-        meals = fetchObjectsForEntity(named: "Meal") as! [Meal]
-        mealView.reloadData()  // refresh UI
+        print("[Home] View did load")
+        updateMealList()  // set outlineView source
+    }
+    
+    func updateMealList() {  // pull meals from persistent store to display when view opens
+        meals = fetchObjectsForEntity(named: Meal.EntityName, filters: nil) as! [Meal]
+        mealView.reloadData()  // set outlineView source
     }
     
     // MARK: - OutlineView Logic
@@ -83,7 +89,7 @@ class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutline
         if let meal = item as? Meal {
             view = outlineView.makeView(withIdentifier: NSUserInterfaceItemIdentifier.init("MealCell"), owner: self) as? NSTableCellView
             if let textField = view?.textField {  // display the meal name
-                textField.stringValue = meal.name
+                textField.stringValue = meal.name.capitalized
                 textField.sizeToFit()
             }
         } else if let recipe = item as? Recipe {
@@ -94,9 +100,18 @@ class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutline
     
     // MARK: - Button Actions
     
-    @IBAction func addMealButton(_ sender: Any) {  // generate alert for user to add a new button
-        meals.append(Meal(name: "New Meal @ \(Date())"))  // ***
-        let _ = saveManagedObjectContext()
-        mealView.reloadData()
+    @IBAction func addMealButtonClicked(_ sender: Any) {  // generate screen for user to add a new meal
+        self.performSegue(withIdentifier: NSStoryboardSegue.Identifier.init("addMealSegue"), sender: self)
     }
+    
+    @IBAction func addRecipeButtonClicked(_ sender: Any) {
+        self.performSegue(withIdentifier: NSStoryboardSegue.Identifier.init("addRecipeSegue"), sender: self)
+    }
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?) {
+        // pass data as needed
+    }
+    
 }

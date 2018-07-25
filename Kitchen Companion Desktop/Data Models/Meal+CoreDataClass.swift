@@ -10,4 +10,6 @@ import CoreData
 @objc(Meal)
 public class Meal: NSManagedObject {
     
+    static var EntityName = "Meal"  // reference to entity name
+    
 }
