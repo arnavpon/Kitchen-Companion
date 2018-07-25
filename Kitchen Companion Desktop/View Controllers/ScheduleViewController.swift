@@ -40,6 +40,8 @@ import Cocoa
 
 class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutlineViewDataSource {
 
+    @IBOutlet weak var mealView: NSOutlineView!
+
     var meals: [Meal] = [Meal]()  // list of known meals
     
     // MARK: - ViewController Methods
@@ -48,7 +50,8 @@ class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutline
         super.viewDidLoad()
         
         // Pull meals from persistent store to display when view opens:
-        
+        meals = fetchObjectsForEntity(named: "Meal") as! [Meal]
+        mealView.reloadData()  // refresh UI
     }
     
     // MARK: - OutlineView Logic
@@ -87,5 +90,13 @@ class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutline
             
         }
         return view
+    }
+    
+    // MARK: - Button Actions
+    
+    @IBAction func addMealButton(_ sender: Any) {  // generate alert for user to add a new button
+        meals.append(Meal(name: "New Meal @ \(Date())"))  // ***
+        let _ = saveManagedObjectContext()
+        mealView.reloadData()
     }
 }

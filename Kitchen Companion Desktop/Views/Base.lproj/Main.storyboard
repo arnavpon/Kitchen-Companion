@@ -839,6 +839,17 @@ CA
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MMa-Ac-JSe">
+                                <rect key="frame" x="242" y="209" width="97" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Add Meal" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZhO-z1-hSw">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="addMealButton:" target="XfG-lQ-9wD" id="Otj-5F-RMJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="7dJ-e5-nDX" secondAttribute="bottom" id="CM7-Wk-ela"/>
@@ -846,6 +857,9 @@ CA
                             <constraint firstItem="7dJ-e5-nDX" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="nCK-2S-oua"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealView" destination="dRp-oQ-Mxt" id="bW2-bn-H1C"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
