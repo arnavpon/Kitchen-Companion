@@ -2,8 +2,12 @@
 //  Kitchen Companion Desktop
 //  Created by Arnav Pondicherry on 7/21/18.
 
+//  Home Screen for application
 //  Displays the meal schedule for the current week
-// Home Screen for application
+//      - Idea is that user can create a master list of meals that are known to them in terms of preparation, and continue to build this list over time. Refer to this list when menu planning, inputting these recipes into the schedule.
+//      - At meal scheduling time: assign a meal to a particular part of the day or days. Can increase structure of the meal schedule by building constraints, say Friday is Fish Day, Monday is Vegetarian, etc. These constraints can guide the AUTO-ASSIGNING process for meals. On auto-assign, populate specific meals from the availability list, then use the final schedule to generate a grocery list.
+//      - System should also be able to incorporate TEST meals, which aren't yet in our meal list but are meals we wish to learn.
+//      - Add recipe name to list, tag by type & genre, use color tagging for folders on Mac as inspiration. The meal display list has 3 LEVELS - (1) sort characteristic (type, genre, or a different index); (2) meals belonging to the category; (3) recipes for the specific meal. User can choose different sort characteristics to view meals in different ways (need scalable method for this that uses index & enables referencing by index).
 
 // first flow is for menu planning
 // 1) need a way to add/edit MEAL names & display in table view
@@ -28,7 +32,7 @@
 // needs to understand how long given meal will last for
 
 // 3) convert the menu for the week into a recipe -> grocery list -> mobile app companion
-// need an underlying recipe XML format backing up the recipe name
+//  All recipes are represented by a recipe XML format (document) backing up the recipe name, for document persistence (iCloud vs. AWS document storage vs. local file storage) AND a recipe object built in code that maps directly to & from the XML. 
 // part 0 of XML document will be METADATA (info on portionSize, required utensils, etc.)
 // part 1 of XML document will be INGREDIENTS
 // part 2 of XML document will be PREPARATION (instructions)
