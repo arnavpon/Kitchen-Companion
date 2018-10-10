@@ -7,6 +7,7 @@
 //      - Idea is that user can create a master list of meals that are known to them in terms of preparation, and continue to build this list over time. Refer to this list when menu planning, inputting these recipes into the schedule.
 //      - At meal scheduling time: assign a meal to a particular part of the day or days. Can increase structure of the meal schedule by building constraints, say Friday is Fish Day, Monday is Vegetarian, etc. These constraints can guide the AUTO-ASSIGNING process for meals. On auto-assign, populate specific meals from the availability list, then use the final schedule to generate a grocery list.
 //      - System should also be able to incorporate TEST meals, which aren't yet in our meal list but are meals we wish to learn.
+//      - Users should be able to go back and view meals from previous weeks, so we need to cache the meal schedule over time (& prevent editing after date has passed). Store data in AWS. 
 //      - Add recipe name to list, tag by type & genre, use color tagging for folders on Mac as inspiration. The meal display list has 3 LEVELS - (1) sort characteristic (type, genre, or a different index); (2) meals belonging to the category; (3) recipes for the specific meal. User can choose different sort characteristics to view meals in different ways (need scalable method for this that uses index & enables referencing by index).
 
 // first flow is for menu planning
@@ -27,7 +28,7 @@
 // needs to understand user's meal habits. ask how many meals per day, which ones need assigning
 // calendar, can assign meals to particular days of the week
 // can set constraints (e.g. Friday is "Italian" day)
-// user can auto-schedule meals (done based on constraints) or add recipe to a day themself
+// user can auto-schedule meals (done based on constraints) or add recipe to a day manually
 // attempts to maximize time between repetitions
 // needs to understand how long given meal will last for
 
