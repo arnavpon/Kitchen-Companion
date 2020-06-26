@@ -10,7 +10,7 @@
 //      - Users should be able to go back and view meals from previous weeks, so we need to cache the meal schedule over time (& prevent editing after date has passed). Store data in AWS. 
 //      - Add recipe name to list, tag by type & genre, use color tagging for folders on Mac as inspiration. The meal display list has 3 LEVELS - (1) sort characteristic (type, genre, or a different index); (2) meals belonging to the category; (3) recipes for the specific meal. User can choose different sort characteristics to view meals in different ways (need scalable method for this that uses index & enables referencing by index).
 
-// first flow is for menu planning
+// First flow is for menu planning
 // 1) need a way to add/edit MEAL names & display in table view
 // create repository of MEALS - a single meal can have multiple recipes to make it
 // each meal name should be unique, e.g. "Garlic & Oil Pasta" w/ any number of linked recipes
