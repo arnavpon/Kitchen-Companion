@@ -1,6 +1,6 @@
 //  ScheduleViewController.swift
 //  Kitchen Companion Desktop
-//  Created by Arnav Pondicherry on 7/21/18.
+//  Created by Arnav Pondicherry on 7/21/18
 
 //  Home Screen for application
 //  Displays the meal schedule for the current week
@@ -98,7 +98,7 @@ class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutline
                 textField.sizeToFit()
             }
         } else if let recipe = item as? Recipe {
-            
+            print(recipe)
         }
         return view
     }
@@ -106,11 +106,11 @@ class ScheduleViewController: NSViewController, NSOutlineViewDelegate, NSOutline
     // MARK: - Button Actions
     
     @IBAction func addMealButtonClicked(_ sender: Any) {  // generate screen for user to add a new meal
-        self.performSegue(withIdentifier: NSStoryboardSegue.Identifier.init("addMealSegue"), sender: self)
+        self.performSegue(withIdentifier: "addMealSegue", sender: self)
     }
     
     @IBAction func addRecipeButtonClicked(_ sender: Any) {
-        self.performSegue(withIdentifier: NSStoryboardSegue.Identifier.init("addRecipeSegue"), sender: self)
+        self.performSegue(withIdentifier: "addRecipeSegue", sender: self)
     }
     
     // MARK: - Navigation

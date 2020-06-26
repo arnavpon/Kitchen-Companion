@@ -27,7 +27,7 @@ class AddMealViewController: NSViewController, NSTextFieldDelegate {
     
     // MARK: - TextField Delegate
     
-    override func controlTextDidChange(_ obj: Notification) {  // enable/disable save button
+    func controlTextDidChange(_ obj: Notification) {  // enable/disable save button
         name = nameTextField.stringValue.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).lowercased()  // store as all lowercase
         saveMealButton.isEnabled = (name.count > 0)
     }
@@ -37,11 +37,11 @@ class AddMealViewController: NSViewController, NSTextFieldDelegate {
     @IBAction func saveMealButtonClicked(_ sender: Any) {
         let searchResults = fetchObjectsForEntity(named: Meal.EntityName, filters: ["name": name as NSObject])
         if (searchResults.count == 0) {  // make sure the meal name is unique
-            if let vc = presenting as? ScheduleViewController {  // insert into moc
+            if let vc = presentingViewController as? ScheduleViewController {  // insert into moc
                 let _ = Meal(name: name)  // create meal object
                 if (saveManagedObjectContext()) {  // save context
                     vc.updateMealList()  // refresh source for outlineView
-                    vc.dismissViewController(self)  // dismiss modal window
+                    vc.dismiss(self)  // dismiss modal window
                 }
             }
         } else {  // provide feedback to user
